@@ -1,0 +1,493 @@
+.header-bar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 47px;
+    margin-right: 67px;
+    justify-content: flex-end;
+  }
+  
+  #search {
+    width: 155px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-icon {
+    width: 17.42px;
+    height: 17.42px;
+  }
+  
+  .search-icon-container {
+    border: 1px solid black;
+    border-radius: 22px 0 0 22px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 10.5px;
+    border-right: 0;
+  }
+  
+  .search-field {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    border-left: 0px;
+    height: 30px;
+    border-radius: 0 22px 22px 0;
+    padding-left: 20px;
+    width: 106px;
+    font-family: 'Philosopher';
+  }
+  
+  .instagram-icon {
+    margin-left: 58px;
+  }
+  .facebook-icon {
+    margin-left: 13px;
+  }
+  
+  body > header > div > div.instagram-icon > img {
+    width: 30px;
+    height: 30px;
+  }
+  body > header > div > div.facebook-icon > img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    margin-left: 88px;
+    margin-right: 88px;
+  }
+  
+  body > header > nav > div:nth-child(1) > img {
+    width: 287px;
+    height: 215px;
+  }
+  
+  body > header > nav > div > a {
+    font-size: 25px;
+    color: #722828;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Philosopher';
+  }
+  body > header > nav > div > a:visited {
+    font-size: 25px;
+    color: #722828;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Philosopher';
+  }
+  
+  .banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  body > div.banner > img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div > h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    margin: 0;
+    color: #722828;
+    font-size: 37px;
+    font-family: 'Philosopher';
+  }
+  
+  .newarrival-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  body > div.newarrival-container > div > img {
+    width: 354px;
+    height: 350px;
+  }
+  
+  body > div.newarrival-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  body > div.newarrival-container > div > p > a {
+    font-size: 25px;
+    color: #722828;
+    font-family: 'Philosopher';
+    text-decoration: none;
+  }
+  
+  body > div.newarrival-container > div > p {
+    margin: 0;
+    padding-top: 11px;
+  }
+  
+  body > div.newarrival-container > div > p {
+    padding: 0;
+    font-size: 25px;
+    color: #722828;
+    text-decoration: none;
+    font-family: 'Philosopher';
+  }
+  
+  .homenotebook-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  body > div.homenotebook-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  body > div.homenotebook-container > div > img {
+    width: 354px;
+    height: 350px;
+  }
+  body > div.homenotebook-container > div > p > a {
+    font-size: 25px;
+    color: #722828;
+    text-decoration: none;
+    font-family: 'Philosopher';
+  }
+  
+  body > div.homenotebook-container > div > p {
+    margin: 0;
+    padding-top: 11px;
+  }
+  body > div.homenotebook-container > div > p {
+    padding: 0;
+    font-size: 25px;
+    color: #722828;
+    text-decoration: none;
+    font-family: 'Philosopher';
+  }
+  
+  .homeerasers-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  body > div.homeerasers-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  body > div.homeerasers-container > div > img {
+    width: 354px;
+    height: 350px;
+  }
+  body > div.homeerasers-container > div > p > a {
+    font-size: 25px;
+    color: #722828;
+    text-decoration: none;
+    font-family: 'Philosopher';
+  }
+  
+  body > div.homeerasers-container > div > p {
+    margin: 0;
+    padding-top: 11px;
+  }
+  body > div.homeerasers-container > div > p {
+    padding: 0;
+    font-size: 25px;
+    color: #722828;
+    text-decoration: none;
+    font-family: 'Philosopher';
+  }
+  
+  footer {
+    height: 276;
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px black solid;
+    padding-bottom: 36px;
+  }
+  
+  body > footer > h4 {
+    font-size: 25px;
+    color: #722828;
+    font-weight: bold;
+    margin-top: 59px;
+    font-family: 'Philosopher';
+  }
+  
+  body > footer > address > div.email > div > img {
+    width: 30px;
+    height: 21px;
+    margin-right: 5px;
+  }
+  
+  body > footer > address > div.address > div > img {
+    margin-right: 5px;
+    width: 30px;
+    height: 21px;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  body > footer > address > div.address > div > p > a,
+  body > footer > address > div.address > div > p,
+  body > footer > address > div.email > div > p,
+  body > footer > address > div.email > div > p > a {
+    color: #722828;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration: none;
+    margin: 0;
+    font-family: 'Philosopher';
+  }
+  
+  body > footer > h5 {
+    color: #722828;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0;
+    font-family: 'Philosopher';
+  }
+  
+  body > div.main-section {
+    display: flex;
+    justify-content: center;
+  }
+  body > div.main-section > div.item-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 1083px;
+  }
+  
+  body > div.main-section > div.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 283px;
+    height: 835px;
+    border: 1px black solid;
+  }
+  
+  body > div.main-section > div.item-section > div > div.item-pic > a > img {
+    width: 295px;
+    height: 295px;
+    border-radius: 40px;
+  }
+  
+  body > div.main-section > div.item-section > div > div.quick-view-section,
+  body > div.main-section > div.item-section > div > div.item-name {
+    display: flex;
+    justify-content: center;
+  }
+  
+  body
+    > div.main-section
+    > div.item-section
+    > div
+    > div.quick-view-section
+    > button {
+    height: 44px;
+    width: 124px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+    color: #722828;
+    font-family: 'Philosopher';
+  }
+  
+  body > div.main-section > div.item-section > div > div.quick-view-section {
+    margin-top: 10px;
+  }
+  
+  body > div.main-section > div.item-section > div > div.item-name {
+    margin-top: 15px;
+  }
+  
+  body > div.main-section > div.item-section > div > div.item-name > a {
+    font-size: 20px;
+    text-align: center;
+    color: #722828;
+    text-decoration: none;
+    font-family: 'Philosopher';
+  }
+  
+  body > div.main-section > div.item-section > div > div.item-name > a:visited {
+    font-size: 20px;
+    text-align: center;
+    color: #722828;
+    text-decoration: none;
+    font-family: 'Philosopher';
+  }
+  body > div.main-section > div.product-container > div > h4 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  body > div.main-section > div.product-container > div > h4 > a,
+  body > div.main-section > div.product-container > div > h4 > a:visited {
+    color: #722828;
+    font-size: 25px;
+    font-weight: medium;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Philosopher';
+  }
+  body > div.main-section > div.product-container > div > h2 {
+    color: #722828;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Philosopher';
+  }
+  
+  #image1 {
+    width: 534px;
+    height: 534px;
+  }
+  
+  #image2 {
+    width: 178px;
+    height: 178px;
+  }
+  #image3 {
+    width: 178px;
+    height: 178px;
+  }
+  #image4 {
+    width: 178px;
+    height: 178px;
+  }
+  
+  body > main > div > div.choosing-img-body > div.choosing-img-big {
+    display: flex;
+    flex-wrap: wrap;
+    width: 534px;
+  }
+  
+  body > main > div > div.choosing-img-body > div.choosing-img-small {
+    display: flex;
+    padding: 0;
+    margin-top: 34px;
+  }
+  
+  #product-choosing-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  body > main > div > div.choosing-text-body {
+    margin-left: 50px;
+  }
+  
+  #itemPrice,
+  #itemName {
+    font-family: 'Philosopher';
+    font-size: 30px;
+    color: #707070;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  body > main > div > div.choosing-text-body > div.choosing-quantity > p {
+    font-family: 'Philosopher';
+    font-size: 32px;
+    color: #707070;
+    font-weight: regular;
+  }
+  
+  #choosingQuantityButton {
+    width: 77px;
+    height: 30px;
+    border-radius: 40px;
+    border: 1px #707070 solid;
+    text-align: center;
+  }
+  
+  body > main > div > div.choosing-text-body > div.add-to-cart > button {
+    width: 114px;
+    height: 22px;
+    color: #707070;
+    background-color: #ceb1b1;
+    border-radius: 40px;
+    border: 1px #707070 solid;
+    margin-top: 14px;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+  body > main > div > div.about-top-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body > main > div > div.about-top-body > div.about-top-left > img {
+    width: 536px;
+    height: 536px;
+  }
+  body > main > div > div.about-top-body > div.about-top-right {
+    width: 636px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: #100f0f;
+    text-align: left;
+    font-family: 'Philosopher';
+  }
+  
+  body > main > div > div.about-bottom-body {
+    margin-top: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body > main > div > div.about-bottom-body > div.about-bottom-right > img {
+    width: 600px;
+    height: 600px;
+    margin-left: 56px;
+  }
+  
+  body > main > div > div.about-bottom-body > div.about-bottom-left {
+    width: 566px;
+  }
+  
+  body > main > div > div.about-bottom-body > div.about-bottom-left > p {
+    font-family: 'Philosopher';
+    font-size: 30px;
+    color: #100f0f;
+    text-align: left;
+  }
+  
