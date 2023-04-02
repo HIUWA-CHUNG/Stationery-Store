@@ -24,10 +24,10 @@ h2.textContent = h1Title;
 let url = undefined;
 if (category) {
   url = new URL(
-    `https://stingray-app-hpvau.ondigitalocean.app/api/products/?category=${category}`
+    `https://store.elvioseverino.dev/api/products/?category=${category}`
   );
 } else {
-  url = new URL(`https://stingray-app-hpvau.ondigitalocean.app/api/products/`);
+  url = new URL(`https://store.elvioseverino.dev/api/products/`);
 }
 
 let data = fetch(url)

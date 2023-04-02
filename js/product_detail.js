@@ -1,8 +1,6 @@
 let params = new URL(document.location).searchParams;
 let id = params.get('id');
-let url = new URL(
-  `https://stingray-app-hpvau.ondigitalocean.app/get-product/${id}/`
-);
+let url = new URL(`https://store.elvioseverino.dev/get-product/${id}/`);
 let data = fetch(url)
   .then((response) => response.json())
   .then((data) => {

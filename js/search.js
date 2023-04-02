@@ -11,7 +11,7 @@ if (search === '') {
 }
 
 let url = new URL(
-  `https://stingray-app-hpvau.ondigitalocean.app/api/products/?search=${search}`
+  `https://store.elvioseverino.dev/api/products/?search=${search}`
 );
 
 let data = fetch(url)
